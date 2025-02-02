@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>WearIT</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css'><link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+<body>
+<div class="shop-card">
+  <div class="title">
+    T-SHIRT
+  </div>
+  <div class="desc">
+    WearIT Demo
+  </div>
+  <div class="slider">
+    <figure id="shirt_natural" data-color="#C5C4C4, #FFF1D8">
+      <img src="../static/images/shirt_natural.jpg" alt="Natural Shirt">
+    </figure>
+    <figure id="shirt_blue" data-color="#BF9B90, #C18675">
+      <img src="../static/images/shirt_blue.jpg" alt="Blue Shirt">
+    </figure>
+    <figure id="shirt_brown" data-color="#967117, #664C1A">
+      <img src="../static/images/shirt_brown.jpg" alt="Brown Shirt">
+    </figure>
+    <figure id="shirt_black" data-color="#292a2f, #131519">
+      <img src="../static/images/shirt_black.jpg" alt="Black Shirt">
+    </figure>
+  </div>
+  
+
+  <div class="cta">
+    <div class="price">$∞</div>
+    <button class="btn" id="try-on-btn">Try On<span class="bg"></span></button>
+    <div class="switch-container">
+      <div class="switch-item">
+        <input type="radio" id="pose" name="switch" checked>
+        <label for="pose" class="switch">
+          <span class="slider"></span>
+        </label>
+        <span class="switch-label">Pose</span>
+      </div>
+      <div class="switch-item">
+        <input type="radio" id="yolo" name="switch">
+        <label for="yolo" class="switch">
+          <span class="slider"></span>
+        </label>
+        <span class="switch-label">COCO</span>
+      </div>
+      <div class="switch-item">
+        <input type="radio" id="aruco" name="switch">
+        <label for="aruco" class="switch">
+          <span class="slider"></span>
+        </label>
+        <span class="switch-label">ArUco</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bg"></div>
+
+<div id="video-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Live Try-On</h2>
+    <img id="video-output" src="" alt="Video Feed">
+  </div>
+</div>
+
+<a class="the-most" target="_blank" href="http://127.0.0.1:5000/">
+  <img src="../static/images/logo.png">
+</a>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js '></script><script  src="../static/js/script.js"></script>
+
+</body>
+</html>
