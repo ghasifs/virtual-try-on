@@ -2,7 +2,7 @@
 YOLO_MODEL_PATH = "static/models/yolo11n-pose.pt"
 
 # Path to the test video used in the application ('0' for webcam)
-VIDEO_PATH = "static/videos/test_video.mp4"
+VIDEO_PATH = 0#"static/videos/test_video.mp4"
 
 # Mapping of shirt IDs to their corresponding overlay images
 SHIRT_IMAGES = {
